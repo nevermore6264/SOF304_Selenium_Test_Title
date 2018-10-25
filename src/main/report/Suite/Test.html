@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 25 12:15:15 ICT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3725 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='register.UserNameTest.input51Characters()'><b>input51Characters</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+<tr>
+<td title='register.PhoneTest.inputDouble()'><b>inputDouble</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.PassWordTest.inputIncorrectPass()'><b>inputIncorrectPass</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.PassWordTest.inputNull()'><b>inputNull</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.PhoneTest.inputNull()'><b>inputNull</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.UserNameTest.inputNull()'><b>inputNull</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+<tr>
+<td title='register.UserNameTest.inputNumber()'><b>inputNumber</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+<tr>
+<td title='register.PhoneTest.inputNumberHasLength1()'><b>inputNumberHasLength1</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.PhoneTest.inputNumberHasLength12()'><b>inputNumberHasLength12</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.UserNameTest.inputOneCharacter()'><b>inputOneCharacter</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+<tr>
+<td title='register.PassWordTest.inputSpace()'><b>inputSpace</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.PhoneTest.inputSpace()'><b>inputSpace</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.UserNameTest.inputSpace()'><b>inputSpace</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+<tr>
+<td title='register.PassWordTest.inputSpecialCharacters()'><b>inputSpecialCharacters</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.PhoneTest.inputSpecialCharacters()'><b>inputSpecialCharacters</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.UserNameTest.inputSpecialCharacters()'><b>inputSpecialCharacters</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+<tr>
+<td title='register.PhoneTest.inputString()'><b>inputString</b><br>Test class: register.PhoneTest</td>
+<td></td>
+<td>0</td>
+<td>register.PhoneTest@66d18979</td></tr>
+<tr>
+<td title='register.PassWordTest.inputStringHasLength1()'><b>inputStringHasLength1</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.PassWordTest.inputStringHasLength2()'><b>inputStringHasLength2</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.PassWordTest.inputStringHasLength51()'><b>inputStringHasLength51</b><br>Test class: register.PassWordTest</td>
+<td></td>
+<td>0</td>
+<td>register.PassWordTest@6913c1fb</td></tr>
+<tr>
+<td title='register.UserNameTest.inputTwoCharacters()'><b>inputTwoCharacters</b><br>Test class: register.UserNameTest</td>
+<td></td>
+<td>0</td>
+<td>register.UserNameTest@bccb269</td></tr>
+</table><p>
+</body>
+</html>

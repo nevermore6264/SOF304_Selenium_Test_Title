@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3725" started-at="2018-10-25T05:15:15Z" finished-at="2018-10-25T05:15:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3725" started-at="2018-10-25T05:15:15Z" finished-at="2018-10-25T05:15:19Z">
+      <class name="register.PhoneTest">
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="24" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputDouble()[pri:0, instance:register.PhoneTest@66d18979]" name="inputDouble" duration-ms="86" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputDouble -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="30" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputNull()[pri:0, instance:register.PhoneTest@66d18979]" name="inputNull" duration-ms="14" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNull -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="30" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputNumberHasLength1()[pri:0, instance:register.PhoneTest@66d18979]" name="inputNumberHasLength1" duration-ms="58" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNumberHasLength1 -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="22" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputNumberHasLength12()[pri:0, instance:register.PhoneTest@66d18979]" name="inputNumberHasLength12" duration-ms="86" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNumberHasLength12 -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="19" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputSpace()[pri:0, instance:register.PhoneTest@66d18979]" name="inputSpace" duration-ms="55" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSpace -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="27" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputSpecialCharacters()[pri:0, instance:register.PhoneTest@66d18979]" name="inputSpecialCharacters" duration-ms="68" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSpecialCharacters -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PhoneTest@66d18979]" name="browserWeb" is-config="true" duration-ms="23" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputString()[pri:0, instance:register.PhoneTest@66d18979]" name="inputString" duration-ms="71" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputString -->
+      </class> <!-- register.PhoneTest -->
+      <class name="register.PassWordTest">
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="1203" started-at="2018-10-25T12:15:15Z" finished-at="2018-10-25T12:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputIncorrectPass()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputIncorrectPass" duration-ms="162" started-at="2018-10-25T12:15:16Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputIncorrectPass -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="386" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputNull()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputNull" duration-ms="30" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNull -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="52" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputSpace()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputSpace" duration-ms="59" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSpace -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="23" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputSpecialCharacters()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputSpecialCharacters" duration-ms="74" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSpecialCharacters -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="21" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputStringHasLength1()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputStringHasLength1" duration-ms="65" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputStringHasLength1 -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="32" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputStringHasLength2()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputStringHasLength2" duration-ms="70" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputStringHasLength2 -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.PassWordTest@6913c1fb]" name="browserWeb" is-config="true" duration-ms="27" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputStringHasLength51()[pri:0, instance:register.PassWordTest@6913c1fb]" name="inputStringHasLength51" duration-ms="147" started-at="2018-10-25T12:15:17Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputStringHasLength51 -->
+      </class> <!-- register.PassWordTest -->
+      <class name="register.UserNameTest">
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="20" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="input51Characters()[pri:0, instance:register.UserNameTest@bccb269]" name="input51Characters" duration-ms="176" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input51Characters -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="31" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputNull()[pri:0, instance:register.UserNameTest@bccb269]" name="inputNull" duration-ms="14" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNull -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="28" started-at="2018-10-25T12:15:18Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputNumber()[pri:0, instance:register.UserNameTest@bccb269]" name="inputNumber" duration-ms="82" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputNumber -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="20" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputOneCharacter()[pri:0, instance:register.UserNameTest@bccb269]" name="inputOneCharacter" duration-ms="63" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputOneCharacter -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="23" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputSpace()[pri:0, instance:register.UserNameTest@bccb269]" name="inputSpace" duration-ms="67" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSpace -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="36" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputSpecialCharacters()[pri:0, instance:register.UserNameTest@bccb269]" name="inputSpecialCharacters" duration-ms="76" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSpecialCharacters -->
+        <test-method status="PASS" signature="browserWeb()[pri:0, instance:register.UserNameTest@bccb269]" name="browserWeb" is-config="true" duration-ms="21" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWeb -->
+        <test-method status="PASS" signature="inputTwoCharacters()[pri:0, instance:register.UserNameTest@bccb269]" name="inputTwoCharacters" duration-ms="83" started-at="2018-10-25T12:15:19Z" finished-at="2018-10-25T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTwoCharacters -->
+      </class> <!-- register.UserNameTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
